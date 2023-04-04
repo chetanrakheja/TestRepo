@@ -2,8 +2,12 @@ name: Your Prompt
 description: This is a test file to take prompts as an input
 body:
 - type: markdown
-    attributes:
-      value: Thanks for taking the time to add a prompt
+  attributes:
+    value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to add Prompts
 - type: input
       id: Prompt_Title
       attributes:
