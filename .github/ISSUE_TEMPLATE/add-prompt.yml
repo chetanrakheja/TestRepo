@@ -1,24 +1,24 @@
 ---
 name: Your Prompt
 about: Write Your prompt
-
+description: This is a test file to take prompts as an input
 ---
 
 body:
-  - type: markdown
+- type: markdown
     attributes:
       value: |
         Thanks for taking the time to add a prompt
         
-   - type: input
-    id: Prompt_Title
-    attributes:
-      label: Prompt Title
-      placeholder: Prompt Title
-    validations:
-      required: true
+- type: input
+      id: Prompt_Title
+      attributes:
+        label: Prompt Title
+       placeholder: Prompt Title
+      validations:
+       required: true
       
-  - type: textarea
+- type: textarea
     id: new_prompt
     attributes:
       label: 
@@ -27,7 +27,7 @@ body:
     validations:
       required: true
       
-    - type: input
+- type: input
     id: gihub_user_name
     attributes:
       label: Github User Name
@@ -35,7 +35,7 @@ body:
     validations:
       required: true
       
-    - type: input
+- type: input
     id: github_profile
     attributes:
       label: Github profile Url
@@ -43,7 +43,7 @@ body:
     validations:
       required: true
       
-   - type: checkboxes
+- type: checkboxes
     id: isbychatgpt
     attributes:
       label: Code of Conduct
