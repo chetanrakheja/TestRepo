@@ -1,8 +1,5 @@
----
 name: Your Prompt
 description: This is a test file to take prompts as an input
----
-
 body:
 - type: markdown
     attributes:
