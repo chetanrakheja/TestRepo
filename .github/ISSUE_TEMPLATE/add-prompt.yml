@@ -8,7 +8,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to add a prompt
-        
 - type: input
       id: Prompt_Title
       attributes:
@@ -16,7 +15,6 @@ body:
        placeholder: Prompt Title
       validations:
        required: true
-      
 - type: textarea
     id: new_prompt
     attributes:
@@ -25,7 +23,6 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-      
 - type: input
     id: gihub_user_name
     attributes:
@@ -33,7 +30,6 @@ body:
       placeholder: Github User Name
     validations:
       required: true
-      
 - type: input
     id: github_profile
     attributes:
@@ -41,7 +37,6 @@ body:
       placeholder: https://github.com/github_profile
     validations:
       required: true
-      
 - type: checkboxes
     id: isbychatgpt
     attributes:
