@@ -6,8 +6,7 @@ body:
     value: "## Welcome!"
 - type: markdown
   attributes:
-    value: |
-      Thanks for taking the time to add Prompts
+    value: "Thanks for taking the time to add Prompts"
 - type: input
       id: prompt_title
       attributes:
