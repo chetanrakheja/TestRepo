@@ -8,12 +8,12 @@ body:
   attributes:
     value: "Thanks for taking the time to add Prompts"
 - type: input
-      id: title
-      attributes:
-        label: Prompt Title
-       placeholder: "Prompt Title"
-      validations:
-       required: true
+  id: pr_title
+  attributes:
+    label: Prompt Title
+    placeholder: "Prompt Title"
+   validations:
+    required: true
 - type: textarea
     id: new_prompt
     attributes:
