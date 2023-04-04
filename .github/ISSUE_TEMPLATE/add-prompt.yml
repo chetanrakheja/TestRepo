@@ -8,7 +8,7 @@ body:
   attributes:
     value: "Thanks for taking the time to add Prompts"
 - type: input
-      id: prompt_title
+      id: title
       attributes:
         label: Prompt Title
        placeholder: "Prompt Title"
